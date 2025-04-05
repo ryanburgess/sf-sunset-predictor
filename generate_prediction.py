@@ -2,6 +2,7 @@ import requests
 from datetime import datetime
 import pytz
 import json
+import subprocess
 
 # Step 1: Get sunrise/sunset times for SF in UTC and convert to PST/PDT
 def get_sunrise_sunset_times():
@@ -96,3 +97,18 @@ def create_prediction_json():
 # Run it
 if __name__ == "__main__":
     create_prediction_json()
+
+
+def git_commit_and_push():
+    try:
+        subprocess.run(["git", "add", "predictions.json"], check=True)
+        subprocess.run(["git", "commit", "-m", "Update predictions"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("✅ Git push completed.")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Git error: {e}")
+
+# Run all
+if __name__ == "__main__":
+    create_prediction_json()
+    git_commit_and_push()
