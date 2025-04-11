@@ -6,7 +6,7 @@ import subprocess
 import config
 
 # -----------------------------
-# 🌅 Step 1: Sunrise/Sunset Times
+# 🌅 Step 1: Sunrise/Sunset + Twilight
 # -----------------------------
 def get_sunrise_sunset_times():
     url = "https://api.sunrise-sunset.org/json?lat=37.7749&lng=-122.4194&formatted=0"
@@ -14,26 +14,47 @@ def get_sunrise_sunset_times():
         response = requests.get(url, timeout=10)
         response.raise_for_status()
         data = response.json()
+        results = data['results']
 
         pacific = pytz.timezone("America/Los_Angeles")
 
-        sunrise_utc = datetime.fromisoformat(data['results']['sunrise'])
-        sunset_utc = datetime.fromisoformat(data['results']['sunset'])
+        def to_local(time_str):
+            utc_dt = datetime.fromisoformat(time_str)
+            return utc_dt.astimezone(pacific).strftime("%-I:%M %p")
 
-        sunrise_local = sunrise_utc.astimezone(pacific).strftime("%-I:%M %p")
-        sunset_local = sunset_utc.astimezone(pacific).strftime("%-I:%M %p")
-
-        return sunrise_local, sunset_local
+        return {
+            "sunrise": to_local(results['sunrise']),
+            "sunset": to_local(results['sunset']),
+            "solar_noon": to_local(results['solar_noon']),
+            "civil_twilight_begin": to_local(results['civil_twilight_begin']),
+            "civil_twilight_end": to_local(results['civil_twilight_end']),
+            "nautical_twilight_begin": to_local(results['nautical_twilight_begin']),
+            "nautical_twilight_end": to_local(results['nautical_twilight_end']),
+            "astronomical_twilight_begin": to_local(results['astronomical_twilight_begin']),
+            "astronomical_twilight_end": to_local(results['astronomical_twilight_end']),
+            "day_length": results['day_length']
+        }
 
     except Exception as e:
         print(f"⚠️ Error fetching sunrise/sunset times: {e}")
-        return "6:00 AM", "8:00 PM"
+        return {
+            "sunrise": "6:00 AM",
+            "sunset": "8:00 PM",
+            "solar_noon": "12:00 PM",
+            "civil_twilight_begin": "5:30 AM",
+            "civil_twilight_end": "8:30 PM",
+            "nautical_twilight_begin": "5:00 AM",
+            "nautical_twilight_end": "9:00 PM",
+            "astronomical_twilight_begin": "4:30 AM",
+            "astronomical_twilight_end": "9:30 PM",
+            "day_length": "12:00:00"
+        }
 
 # -----------------------------
-# 🌤 Step 2: Prediction Scores (Visual Crossing + Moon Phase)
+# 🌤 Step 2: Prediction Scores + Moon Phase
 # -----------------------------
 def get_prediction_scores():
-    API_KEY = config.VISUAL_CROSSING_API_KEY  # Replace with your API key
+    API_KEY = config.VISUAL_CROSSING_API_KEY
     url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/san%20francisco/today?unitGroup=us&include=days,hours,astronomy&key={API_KEY}&contentType=json"
     try:
         response = requests.get(url, timeout=10)
@@ -64,7 +85,6 @@ def get_prediction_scores():
             elif hour_val == sunset_hour:
                 sunset_score = find_hour_score(hour)
 
-        # Add moon phase info
         moon_phase_value = data["days"][0].get("moonphase")
         moonrise = data["days"][0].get("moonrise")
         moonset = data["days"][0].get("moonset")
@@ -121,7 +141,7 @@ def get_moon_phase_label(value):
 # 🌫 Step 3: Fog Forecast (Meteosource)
 # -----------------------------
 def get_fog_forecast():
-    API_KEY = config.METEOSOURCE_API_KEY  # Replace with your Meteosource key
+    API_KEY = config.METEOSOURCE_API_KEY
     url = f"https://www.meteosource.com/api/v1/free/point?place_id=san-francisco&sections=hourly&timezone=auto&language=en&units=us&key={API_KEY}"
 
     try:
@@ -144,7 +164,7 @@ def get_fog_forecast():
 
             fog_data.append({
                 "time": time,
-                "visibility": visibility,
+                "visibility": visibility if visibility is not None else "unknown",
                 "cloud_cover": {
                     "total": cloud_total
                 },
@@ -169,14 +189,13 @@ def calculate_fog_score(visibility, cloud_cover):
 # 📝 Step 4: Write predictions.json
 # -----------------------------
 def create_prediction_json():
-    sunrise, sunset = get_sunrise_sunset_times()
+    sun_times = get_sunrise_sunset_times()
     scores = get_prediction_scores()
     fog_forecast = get_fog_forecast()
     updated_at = datetime.now(pytz.utc).isoformat()
 
     prediction = {
-        "sunrise": sunrise,
-        "sunset": sunset,
+        **sun_times,
         "sunrise_score": scores["sunrise_score"],
         "sunset_score": scores["sunset_score"],
         "moon_phase": scores["moon_phase"],
