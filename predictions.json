@@ -1,6 +1,14 @@
 {
   "sunrise": "6:37 AM",
   "sunset": "7:43 PM",
+  "solar_noon": "1:10 PM",
+  "civil_twilight_begin": "6:12 AM",
+  "civil_twilight_end": "8:08 PM",
+  "nautical_twilight_begin": "5:40 AM",
+  "nautical_twilight_end": "8:40 PM",
+  "astronomical_twilight_begin": "5:07 AM",
+  "astronomical_twilight_end": "9:14 PM",
+  "day_length": 47127,
   "sunrise_score": 6,
   "sunset_score": 9,
   "moon_phase": {
@@ -11,40 +19,32 @@
   },
   "fog_forecast": [
     {
-      "time": "2025-04-11T12:00:00",
-      "visibility": null,
-      "cloud_cover": {
-        "total": 92
-      },
-      "fog_score": 9.2
-    },
-    {
       "time": "2025-04-11T13:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
-        "total": 94
+        "total": 85
       },
-      "fog_score": 9.4
+      "fog_score": 8.5
     },
     {
       "time": "2025-04-11T14:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
-        "total": 95
+        "total": 88
       },
-      "fog_score": 9.5
+      "fog_score": 8.8
     },
     {
       "time": "2025-04-11T15:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
-        "total": 69
+        "total": 91
       },
-      "fog_score": 6.9
+      "fog_score": 9.1
     },
     {
       "time": "2025-04-11T16:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 78
       },
@@ -52,7 +52,7 @@
     },
     {
       "time": "2025-04-11T17:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 86
       },
@@ -60,7 +60,7 @@
     },
     {
       "time": "2025-04-11T18:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 86
       },
@@ -68,7 +68,7 @@
     },
     {
       "time": "2025-04-11T19:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 100
       },
@@ -76,7 +76,7 @@
     },
     {
       "time": "2025-04-11T20:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 99
       },
@@ -84,7 +84,7 @@
     },
     {
       "time": "2025-04-11T21:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 100
       },
@@ -92,7 +92,7 @@
     },
     {
       "time": "2025-04-11T22:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 97
       },
@@ -100,12 +100,20 @@
     },
     {
       "time": "2025-04-11T23:00:00",
-      "visibility": null,
+      "visibility": "unknown",
       "cloud_cover": {
         "total": 95
       },
       "fog_score": 9.5
+    },
+    {
+      "time": "2025-04-12T00:00:00",
+      "visibility": "unknown",
+      "cloud_cover": {
+        "total": 33
+      },
+      "fog_score": 3.3
     }
   ],
-  "updated_at": "2025-04-11T19:36:11.381101+00:00"
+  "updated_at": "2025-04-11T20:01:06.774893+00:00"
 }
