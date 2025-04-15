@@ -25,6 +25,9 @@ jobs:
 
     - name: Run script
       run: python generate_prediction.py
+      env:
+        VISUAL_CROSSING_API_KEY: ${{ secrets.VISUAL_CROSSING_API_KEY }}
+        METEOSOURCE_API_KEY: ${{ secrets.METEOSOURCE_API_KEY }}
 
     - name: Commit and push changes
       run: |

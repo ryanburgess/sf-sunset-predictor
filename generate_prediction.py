@@ -77,7 +77,7 @@ def get_sunrise_sunset_times():
 # 🌤 Step 2: Prediction Scores + Moon Phase
 # -----------------------------
 def get_prediction_scores(moon_data):
-    API_KEY = config.VISUAL_CROSSING_API_KEY
+    API_KEY = os.environ.get("VISUAL_CROSSING_API_KEY")
     url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/san%20francisco/today?unitGroup=us&include=days,hours,astronomy&key={API_KEY}&contentType=json"
     try:
         response = requests.get(url, timeout=10)
@@ -164,7 +164,7 @@ def get_moon_phase_label(value):
 # 🌫 Step 3: Fog Forecast (Meteosource)
 # -----------------------------
 def get_fog_forecast():
-    API_KEY = config.METEOSOURCE_API_KEY
+    API_KEY = os.environ.get("METEOSOURCE_API_KEY")
     url = f"https://www.meteosource.com/api/v1/free/point?place_id=san-francisco&sections=hourly&timezone=auto&language=en&units=us&key={API_KEY}"
 
     try:
