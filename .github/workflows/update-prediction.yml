@@ -29,6 +29,10 @@ jobs:
         VISUAL_CROSSING_API_KEY: ${{ secrets.VISUAL_CROSSING_API_KEY }}
         METEOSOURCE_API_KEY: ${{ secrets.METEOSOURCE_API_KEY }}
 
+    - name: Set up authenticated git access
+      run: |
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+
     - name: Commit and push changes
       run: |
         git config --global user.name "GitHub Actions Bot"
