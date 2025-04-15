@@ -2,8 +2,11 @@ name: Update Predictions
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Every 4 hours, at :00
-  workflow_dispatch:     # manual trigger (optional)
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update:
