@@ -7,8 +7,11 @@ import subprocess
 from astral import LocationInfo
 from astral.moon import moonrise, moonset
 from datetime import date
-from dotenv import load_dotenv
-load_dotenv()  # This loads the .env file automatically
+
+# Only load .env file if it exists (for local development)
+if os.path.exists(".env"):
+    from dotenv import load_dotenv
+    load_dotenv()
 
 def get_moon_info():
     city = LocationInfo("San Francisco", "USA", "America/Los_Angeles", 37.7749, -122.4194)
