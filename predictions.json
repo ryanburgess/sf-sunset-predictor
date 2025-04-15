@@ -120,13 +120,13 @@
       "label": "Astronomical Twilight",
       "start": "5:00 AM",
       "end": "5:34 AM",
-      "avg_fog_score": null
+      "avg_fog_score": 8.8
     },
     {
       "label": "Nautical Twilight",
       "start": "5:34 AM",
       "end": "6:06 AM",
-      "avg_fog_score": null
+      "avg_fog_score": 9.1
     },
     {
       "label": "Civil Twilight",
@@ -138,10 +138,14 @@
       "label": "Golden Hour",
       "start": "6:32 AM",
       "end": "7:32 AM",
-      "avg_fog_score": null
+      "avg_fog_score": 10.0
     }
   ],
-  "recommended_shoot_time": null,
+  "recommended_shoot_time": {
+    "time": "5:00 AM",
+    "phase": "Astronomical Twilight",
+    "fog_score": 8.8
+  },
   "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-  "updated_at": "2025-04-15T18:24:55.555673+00:00"
+  "updated_at": "2025-04-15T18:39:12.655096+00:00"
 }
