@@ -1,0 +1,37 @@
+name: Update Predictions
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Every 4 hours, at :00
+  workflow_dispatch:     # manual trigger (optional)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pytz astral
+
+    - name: Run script
+      run: python generate_prediction.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions Bot"
+        git config --global user.email "actions@github.com"
+        git add predictions.json
+        git commit -m "Update predictions [auto]" || echo "No changes to commit"
+        git push
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

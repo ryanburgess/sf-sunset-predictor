@@ -1,9 +1,32 @@
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 import pytz
 import json
 import subprocess
 import config
+from astral import LocationInfo
+from astral.moon import moonrise, moonset
+from datetime import date
+
+def get_moon_info():
+    city = LocationInfo("San Francisco", "USA", "America/Los_Angeles", 37.7749, -122.4194)
+    today = date.today()
+    tz = pytz.timezone(city.timezone)
+
+    try:
+        rise = moonrise(city.observer, date=today)
+        set_ = moonset(city.observer, date=today)
+
+        return {
+            "moonrise": rise.astimezone(tz).strftime("%-I:%M %p") if rise else None,
+            "moonset": set_.astimezone(tz).strftime("%-I:%M %p") if set_ else None
+        }
+    except Exception as e:
+        print(f"⚠️ Error computing moon info: {e}")
+        return {
+            "moonrise": None,
+            "moonset": None
+        }
 
 # -----------------------------
 # 🌅 Step 1: Sunrise/Sunset + Twilight
@@ -53,7 +76,7 @@ def get_sunrise_sunset_times():
 # -----------------------------
 # 🌤 Step 2: Prediction Scores + Moon Phase
 # -----------------------------
-def get_prediction_scores():
+def get_prediction_scores(moon_data):
     API_KEY = config.VISUAL_CROSSING_API_KEY
     url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/san%20francisco/today?unitGroup=us&include=days,hours,astronomy&key={API_KEY}&contentType=json"
     try:
@@ -96,8 +119,8 @@ def get_prediction_scores():
             "moon_phase": {
                 "value": moon_phase_value,
                 "label": moon_label,
-                "moonrise": moonrise,
-                "moonset": moonset
+                "moonrise": moon_data.get("moonrise"),
+                "moonset": moon_data.get("moonset")
             }
         }
 
@@ -185,13 +208,85 @@ def calculate_fog_score(visibility, cloud_cover):
     score = 10 - min(visibility, 10) + (cloud_cover / 20)
     return round(min(max(score, 0), 10), 1)
 
+def analyze_twilight_conditions(sun_times, fog_forecast):
+    from_zone = pytz.timezone("America/Los_Angeles")
+
+    def parse_time_to_dt(time_str):
+        now = datetime.now()
+        today = now.date()
+        parsed = datetime.strptime(time_str, "%I:%M %p")
+        combined = datetime.combine(today, parsed.time())
+        return from_zone.localize(combined)
+
+    def parse_forecast_time(forecast_time_str):
+        return datetime.fromisoformat(forecast_time_str).astimezone(from_zone)
+
+    # Build twilight windows with real datetime objects
+    twilight_windows = [
+        {
+            "label": "Astronomical Twilight",
+            "start": parse_time_to_dt(sun_times["astronomical_twilight_begin"]),
+            "end": parse_time_to_dt(sun_times["nautical_twilight_begin"])
+        },
+        {
+            "label": "Nautical Twilight",
+            "start": parse_time_to_dt(sun_times["nautical_twilight_begin"]),
+            "end": parse_time_to_dt(sun_times["civil_twilight_begin"])
+        },
+        {
+            "label": "Civil Twilight",
+            "start": parse_time_to_dt(sun_times["civil_twilight_begin"]),
+            "end": parse_time_to_dt(sun_times["sunrise"])
+        },
+        {
+            "label": "Golden Hour",
+            "start": parse_time_to_dt(sun_times["sunrise"]),
+            "end": parse_time_to_dt(sun_times["sunrise"]) + timedelta(hours=1)
+        }
+    ]
+
+    recommended = None
+    for window in twilight_windows:
+        matching_fog = [
+            f for f in fog_forecast
+            if "fog_score" in f and f["fog_score"] is not None and
+               window["start"] <= parse_forecast_time(f["time"]) <= window["end"]
+        ]
+        if matching_fog:
+            avg_fog = sum(f["fog_score"] for f in matching_fog) / len(matching_fog)
+            window["avg_fog_score"] = round(avg_fog, 2)
+            if recommended is None or avg_fog < recommended["fog_score"]:
+                recommended = {
+                    "time": window["start"].strftime("%-I:%M %p"),
+                    "phase": window["label"],
+                    "fog_score": round(avg_fog, 2)
+                }
+        else:
+            window["avg_fog_score"] = None
+
+        # Format for JSON
+        window["start"] = window["start"].strftime("%-I:%M %p")
+        window["end"] = window["end"].strftime("%-I:%M %p")
+
+    if recommended and recommended["fog_score"] <= 5:
+        summary = (
+            f"Best time to shoot: {recommended['time']} — "
+            f"low fog ({recommended['fog_score']}) during {recommended['phase']}."
+        )
+    else:
+        summary = "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears."
+
+    return twilight_windows, recommended, summary
+
 # -----------------------------
 # 📝 Step 4: Write predictions.json
 # -----------------------------
 def create_prediction_json():
     sun_times = get_sunrise_sunset_times()
-    scores = get_prediction_scores()
+    moon_data = get_moon_info()
+    scores = get_prediction_scores(moon_data)
     fog_forecast = get_fog_forecast()
+    twilight_phases, recommended_window, summary = analyze_twilight_conditions(sun_times, fog_forecast)
     updated_at = datetime.now(pytz.utc).isoformat()
 
     prediction = {
@@ -200,6 +295,9 @@ def create_prediction_json():
         "sunset_score": scores["sunset_score"],
         "moon_phase": scores["moon_phase"],
         "fog_forecast": fog_forecast,
+        "twilight_phases": twilight_phases,
+        "recommended_shoot_time": recommended_window,
+        "summary_text": summary,
         "updated_at": updated_at
     }
 
@@ -209,20 +307,7 @@ def create_prediction_json():
     print("✅ predictions.json created!")
 
 # -----------------------------
-# 🚀 Git Auto-commit
-# -----------------------------
-def git_commit_and_push():
-    try:
-        subprocess.run(["git", "add", "predictions.json"], check=True)
-        subprocess.run(["git", "commit", "-m", "Update predictions"], check=True)
-        subprocess.run(["git", "push"], check=True)
-        print("✅ Git push completed.")
-    except subprocess.CalledProcessError as e:
-        print(f"❌ Git error: {e}")
-
-# -----------------------------
 # 🏁 Run Everything
 # -----------------------------
 if __name__ == "__main__":
     create_prediction_json()
-    git_commit_and_push()
