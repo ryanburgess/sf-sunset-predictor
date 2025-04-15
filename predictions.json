@@ -20,14 +20,6 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-04-15T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 89
-        },
-        "fog_score": 8.9
-      },
-      {
         "time": "2025-04-15T13:00:00",
         "visibility": "unknown",
         "cloud_cover": {
@@ -114,6 +106,14 @@
           "total": 100
         },
         "fog_score": 10.0
+      },
+      {
+        "time": "2025-04-16T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
       }
     ],
     "twilight_phases": [
@@ -127,12 +127,16 @@
         "label": "Golden Hour",
         "start": "6:34 AM",
         "end": "7:34 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 9.1
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "6:34 AM",
+      "phase": "Golden Hour",
+      "fog_score": 9.1
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-04-15T19:47:10.314348+00:00"
+    "updated_at": "2025-04-15T20:05:23.518450+00:00"
   },
   "los-angeles": {
     "sunrise": "6:21 AM",
@@ -154,14 +158,6 @@
       "moonset": "7:31 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-15T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
       {
         "time": "2025-04-15T13:00:00",
         "visibility": "unknown",
@@ -249,6 +245,14 @@
           "total": 100
         },
         "fog_score": 10.0
+      },
+      {
+        "time": "2025-04-16T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
       }
     ],
     "twilight_phases": [
@@ -256,18 +260,22 @@
         "label": "Civil Twilight",
         "start": "5:55 AM",
         "end": "6:21 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 10.0
       },
       {
         "label": "Golden Hour",
         "start": "6:21 AM",
         "end": "7:21 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 10.0
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "5:55 AM",
+      "phase": "Civil Twilight",
+      "fog_score": 10.0
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-04-15T19:47:11.314610+00:00"
+    "updated_at": "2025-04-15T20:05:23.997872+00:00"
   },
   "san-diego": {
     "sunrise": "6:18 AM",
@@ -289,14 +297,6 @@
       "moonset": "7:30 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-15T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
       {
         "time": "2025-04-15T13:00:00",
         "visibility": "unknown",
@@ -384,6 +384,14 @@
           "total": 21
         },
         "fog_score": 2.1
+      },
+      {
+        "time": "2025-04-16T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 57
+        },
+        "fog_score": 5.7
       }
     ],
     "twilight_phases": [
@@ -391,18 +399,22 @@
         "label": "Civil Twilight",
         "start": "5:52 AM",
         "end": "6:18 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 10.0
       },
       {
         "label": "Golden Hour",
         "start": "6:18 AM",
         "end": "7:18 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 5.9
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "6:18 AM",
+      "phase": "Golden Hour",
+      "fog_score": 5.9
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-04-15T19:47:12.259471+00:00"
+    "updated_at": "2025-04-15T20:05:24.609539+00:00"
   },
   "lake-tahoe": {
     "sunrise": "6:23 AM",
@@ -424,14 +436,6 @@
       "moonset": "7:24 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-15T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 36
-        },
-        "fog_score": 3.6
-      },
       {
         "time": "2025-04-15T13:00:00",
         "visibility": "unknown",
@@ -519,6 +523,14 @@
           "total": 100
         },
         "fog_score": 10.0
+      },
+      {
+        "time": "2025-04-16T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
       }
     ],
     "twilight_phases": [
@@ -526,18 +538,22 @@
         "label": "Civil Twilight",
         "start": "5:54 AM",
         "end": "6:23 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 5.5
       },
       {
         "label": "Golden Hour",
         "start": "6:23 AM",
         "end": "7:23 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 5.3
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "6:23 AM",
+      "phase": "Golden Hour",
+      "fog_score": 5.3
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-04-15T19:47:13.464501+00:00"
+    "updated_at": "2025-04-15T20:05:25.084049+00:00"
   },
   "napa": {
     "sunrise": "6:33 AM",
@@ -559,14 +575,6 @@
       "moonset": "7:36 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-15T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
       {
         "time": "2025-04-15T13:00:00",
         "visibility": "unknown",
@@ -654,6 +662,14 @@
           "total": 100
         },
         "fog_score": 10.0
+      },
+      {
+        "time": "2025-04-16T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 98
+        },
+        "fog_score": 9.8
       }
     ],
     "twilight_phases": [
@@ -667,11 +683,15 @@
         "label": "Golden Hour",
         "start": "6:33 AM",
         "end": "7:33 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 10.0
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "6:33 AM",
+      "phase": "Golden Hour",
+      "fog_score": 10.0
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-04-15T19:47:14.509493+00:00"
+    "updated_at": "2025-04-15T20:05:26.291022+00:00"
   }
 }
