@@ -10,7 +10,7 @@
     "astronomical_twilight_begin": "6:00 AM",
     "astronomical_twilight_end": "8:17 PM",
     "day_length": 48034,
-    "sunrise_score": 4,
+    "sunrise_score": 2,
     "sunset_score": 8,
     "moon_phase": {
       "value": 19.56,
@@ -20,23 +20,15 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-04-19T05:00:00",
+        "time": "2025-04-19T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 52
+          "total": 63
         },
-        "fog_score": 5.2
+        "fog_score": 6.3
       },
       {
-        "time": "2025-04-19T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 56
-        },
-        "fog_score": 5.6
-      },
-      {
-        "time": "2025-04-19T07:00:00",
+        "time": "2025-04-19T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 58
@@ -44,76 +36,84 @@
         "fog_score": 5.8
       },
       {
-        "time": "2025-04-19T08:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 38
-        },
-        "fog_score": 3.8
-      },
-      {
-        "time": "2025-04-19T09:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 31
-        },
-        "fog_score": 3.1
-      },
-      {
-        "time": "2025-04-19T10:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 26
-        },
-        "fog_score": 2.6
-      },
-      {
         "time": "2025-04-19T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 32
+          "total": 55
         },
-        "fog_score": 3.2
+        "fog_score": 5.5
       },
       {
         "time": "2025-04-19T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 33
+          "total": 41
         },
-        "fog_score": 3.3
+        "fog_score": 4.1
       },
       {
         "time": "2025-04-19T13:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 38
+          "total": 44
         },
-        "fog_score": 3.8
+        "fog_score": 4.4
       },
       {
         "time": "2025-04-19T14:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 42
+          "total": 48
         },
-        "fog_score": 4.2
+        "fog_score": 4.8
       },
       {
         "time": "2025-04-19T15:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 42
+          "total": 45
         },
-        "fog_score": 4.2
+        "fog_score": 4.5
       },
       {
         "time": "2025-04-19T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 53
+          "total": 52
         },
-        "fog_score": 5.3
+        "fog_score": 5.2
+      },
+      {
+        "time": "2025-04-19T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 65
+        },
+        "fog_score": 6.5
+      },
+      {
+        "time": "2025-04-19T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 68
+        },
+        "fog_score": 6.8
+      },
+      {
+        "time": "2025-04-19T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 62
+        },
+        "fog_score": 6.2
+      },
+      {
+        "time": "2025-04-19T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 62
+        },
+        "fog_score": 6.2
       }
     ],
     "twilight_phases": [
@@ -127,16 +127,16 @@
         "label": "Golden Hour",
         "start": "6:28 AM",
         "end": "7:28 AM",
-        "avg_fog_score": 4.2
+        "avg_fog_score": 4.8
       }
     ],
     "recommended_shoot_time": {
       "time": "6:28 AM",
       "phase": "Golden Hour",
-      "fog_score": 4.2
+      "fog_score": 4.8
     },
-    "summary_text": "Best time to shoot: 6:28 AM \u2014 low fog (4.2) during Golden Hour.",
-    "updated_at": "2025-04-19T12:06:59.983410+00:00"
+    "summary_text": "Best time to shoot: 6:28 AM \u2014 low fog (4.8) during Golden Hour.",
+    "updated_at": "2025-04-19T16:04:42.115777+00:00"
   },
   "los-angeles": {
     "sunrise": "6:16 AM",
@@ -159,60 +159,28 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-04-19T05:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 52
-        },
-        "fog_score": 5.2
-      },
-      {
-        "time": "2025-04-19T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 40
-        },
-        "fog_score": 4.0
-      },
-      {
-        "time": "2025-04-19T07:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 32
-        },
-        "fog_score": 3.2
-      },
-      {
-        "time": "2025-04-19T08:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      },
-      {
         "time": "2025-04-19T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 12
         },
-        "fog_score": 0.0
+        "fog_score": 1.2
       },
       {
         "time": "2025-04-19T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 9
         },
-        "fog_score": 0.0
+        "fog_score": 0.9
       },
       {
         "time": "2025-04-19T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 7
         },
-        "fog_score": 0.0
+        "fog_score": 0.7
       },
       {
         "time": "2025-04-19T12:00:00",
@@ -248,6 +216,38 @@
       },
       {
         "time": "2025-04-19T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T20:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 0.0
@@ -275,7 +275,7 @@
       "fog_score": 0.0
     },
     "summary_text": "Best time to shoot: 5:50 AM \u2014 low fog (0.0) during Civil Twilight.",
-    "updated_at": "2025-04-19T12:07:01.139440+00:00"
+    "updated_at": "2025-04-19T16:04:42.668778+00:00"
   },
   "san-diego": {
     "sunrise": "6:14 AM",
@@ -288,7 +288,7 @@
     "astronomical_twilight_begin": "5:48 AM",
     "astronomical_twilight_end": "7:47 PM",
     "day_length": 47252,
-    "sunrise_score": 9,
+    "sunrise_score": 3,
     "sunset_score": 7,
     "moon_phase": {
       "value": 19.56,
@@ -297,38 +297,6 @@
       "moonset": "10:41 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-19T05:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 18
-        },
-        "fog_score": 1.8
-      },
-      {
-        "time": "2025-04-19T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 18
-        },
-        "fog_score": 1.8
-      },
-      {
-        "time": "2025-04-19T07:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 17
-        },
-        "fog_score": 1.7
-      },
-      {
-        "time": "2025-04-19T08:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      },
       {
         "time": "2025-04-19T09:00:00",
         "visibility": "unknown",
@@ -357,28 +325,12 @@
         "time": "2025-04-19T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 2
         },
-        "fog_score": 0.0
+        "fog_score": 0.2
       },
       {
         "time": "2025-04-19T13:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 12
-        },
-        "fog_score": 1.2
-      },
-      {
-        "time": "2025-04-19T14:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 13
-        },
-        "fog_score": 1.3
-      },
-      {
-        "time": "2025-04-19T15:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 8
@@ -386,12 +338,60 @@
         "fog_score": 0.8
       },
       {
+        "time": "2025-04-19T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 18
+        },
+        "fog_score": 1.8
+      },
+      {
+        "time": "2025-04-19T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 9
+        },
+        "fog_score": 0.9
+      },
+      {
         "time": "2025-04-19T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 4
+          "total": 0.0
         },
-        "fog_score": 0.4
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-04-19T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 2
+        },
+        "fog_score": 0.2
+      },
+      {
+        "time": "2025-04-19T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
       }
     ],
     "twilight_phases": [
@@ -399,22 +399,22 @@
         "label": "Civil Twilight",
         "start": "5:48 AM",
         "end": "6:14 AM",
-        "avg_fog_score": 1.2
+        "avg_fog_score": 0.8
       },
       {
         "label": "Golden Hour",
         "start": "6:14 AM",
         "end": "7:14 AM",
-        "avg_fog_score": 1.3
+        "avg_fog_score": 1.8
       }
     ],
     "recommended_shoot_time": {
       "time": "5:48 AM",
       "phase": "Civil Twilight",
-      "fog_score": 1.2
+      "fog_score": 0.8
     },
-    "summary_text": "Best time to shoot: 5:48 AM \u2014 low fog (1.2) during Civil Twilight.",
-    "updated_at": "2025-04-19T12:07:02.317404+00:00"
+    "summary_text": "Best time to shoot: 5:48 AM \u2014 low fog (0.8) during Civil Twilight.",
+    "updated_at": "2025-04-19T16:04:43.804404+00:00"
   },
   "lake-tahoe": {
     "sunrise": "6:17 AM",
@@ -427,7 +427,7 @@
     "astronomical_twilight_begin": "5:48 AM",
     "astronomical_twilight_end": "8:10 PM",
     "day_length": 48256,
-    "sunrise_score": 4,
+    "sunrise_score": 3,
     "sunset_score": 6,
     "moon_phase": {
       "value": 19.56,
@@ -436,38 +436,6 @@
       "moonset": "10:30 AM"
     },
     "fog_forecast": [
-      {
-        "time": "2025-04-19T05:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 27
-        },
-        "fog_score": 2.7
-      },
-      {
-        "time": "2025-04-19T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 21
-        },
-        "fog_score": 2.1
-      },
-      {
-        "time": "2025-04-19T07:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 17
-        },
-        "fog_score": 1.7
-      },
-      {
-        "time": "2025-04-19T08:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      },
       {
         "time": "2025-04-19T09:00:00",
         "visibility": "unknown",
@@ -520,17 +488,49 @@
         "time": "2025-04-19T15:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 13
         },
-        "fog_score": 0.0
+        "fog_score": 1.3
       },
       {
         "time": "2025-04-19T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 8
+          "total": 15
         },
-        "fog_score": 0.8
+        "fog_score": 1.5
+      },
+      {
+        "time": "2025-04-19T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 14
+        },
+        "fog_score": 1.4
+      },
+      {
+        "time": "2025-04-19T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 16
+        },
+        "fog_score": 1.6
+      },
+      {
+        "time": "2025-04-19T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 2
+        },
+        "fog_score": 0.2
+      },
+      {
+        "time": "2025-04-19T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 1
+        },
+        "fog_score": 0.1
       }
     ],
     "twilight_phases": [
@@ -553,7 +553,7 @@
       "fog_score": 0.0
     },
     "summary_text": "Best time to shoot: 5:48 AM \u2014 low fog (0.0) during Civil Twilight.",
-    "updated_at": "2025-04-19T12:07:03.525007+00:00"
+    "updated_at": "2025-04-19T16:04:44.375269+00:00"
   },
   "napa": {
     "sunrise": "6:27 AM",
@@ -566,7 +566,7 @@
     "astronomical_twilight_begin": "5:59 AM",
     "astronomical_twilight_end": "8:17 PM",
     "day_length": 48121,
-    "sunrise_score": 7,
+    "sunrise_score": 3,
     "sunset_score": 4,
     "moon_phase": {
       "value": 19.56,
@@ -576,63 +576,39 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-04-19T05:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 14
-        },
-        "fog_score": 1.4
-      },
-      {
-        "time": "2025-04-19T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 11
-        },
-        "fog_score": 1.1
-      },
-      {
-        "time": "2025-04-19T07:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 9
-        },
-        "fog_score": 0.9
-      },
-      {
-        "time": "2025-04-19T08:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 56
-        },
-        "fog_score": 5.6
-      },
-      {
         "time": "2025-04-19T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 40
+          "total": 64
         },
-        "fog_score": 4.0
+        "fog_score": 6.4
       },
       {
         "time": "2025-04-19T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 44
+          "total": 47
         },
-        "fog_score": 4.4
+        "fog_score": 4.7
       },
       {
         "time": "2025-04-19T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 40
+          "total": 35
         },
-        "fog_score": 4.0
+        "fog_score": 3.5
       },
       {
         "time": "2025-04-19T12:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 22
+        },
+        "fog_score": 2.2
+      },
+      {
+        "time": "2025-04-19T13:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 8
@@ -640,36 +616,60 @@
         "fog_score": 0.8
       },
       {
-        "time": "2025-04-19T13:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
-      },
-      {
         "time": "2025-04-19T14:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 10
+          "total": 14
         },
-        "fog_score": 1.0
+        "fog_score": 1.4
       },
       {
         "time": "2025-04-19T15:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 4
+          "total": 17
         },
-        "fog_score": 0.4
+        "fog_score": 1.7
       },
       {
         "time": "2025-04-19T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
+          "total": 17
+        },
+        "fog_score": 1.7
+      },
+      {
+        "time": "2025-04-19T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 19
+        },
+        "fog_score": 1.9
+      },
+      {
+        "time": "2025-04-19T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 21
+        },
+        "fog_score": 2.1
+      },
+      {
+        "time": "2025-04-19T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
           "total": 7
         },
         "fog_score": 0.7
+      },
+      {
+        "time": "2025-04-19T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 21
+        },
+        "fog_score": 2.1
       }
     ],
     "twilight_phases": [
@@ -677,21 +677,21 @@
         "label": "Civil Twilight",
         "start": "5:59 AM",
         "end": "6:27 AM",
-        "avg_fog_score": 0.2
+        "avg_fog_score": 0.8
       },
       {
         "label": "Golden Hour",
         "start": "6:27 AM",
         "end": "7:27 AM",
-        "avg_fog_score": 1.0
+        "avg_fog_score": 1.4
       }
     ],
     "recommended_shoot_time": {
       "time": "5:59 AM",
       "phase": "Civil Twilight",
-      "fog_score": 0.2
+      "fog_score": 0.8
     },
-    "summary_text": "Best time to shoot: 5:59 AM \u2014 low fog (0.2) during Civil Twilight.",
-    "updated_at": "2025-04-19T12:07:04.455332+00:00"
+    "summary_text": "Best time to shoot: 5:59 AM \u2014 low fog (0.8) during Civil Twilight.",
+    "updated_at": "2025-04-19T16:04:45.519517+00:00"
   }
 }
