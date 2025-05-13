@@ -14,8 +14,11 @@ def fetch_weather():
     res = requests.get(url)
     data = res.json()
 
+    print("🌤️ Raw WeatherAPI response:")
+    print(json.dumps(data, indent=2))
+
     if "error" in data:
-        print("❌ WeatherAPI error:", data["error"])
+        print("❌ WeatherAPI Error:", data["error"])
         raise Exception(f"WeatherAPI Error: {data['error']['message']}")
 
     result = {
