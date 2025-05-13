@@ -21,7 +21,7 @@ jobs:
         run: pip install python-dotenv requests
 
       - name: Run Weather Script
-        run: python scripts/weather.py
+        run: python weather.py
 
       - name: Commit Weather JSON
         run: |
