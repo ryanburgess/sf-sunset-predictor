@@ -4,7 +4,7 @@ import requests
 
 API_KEY = os.getenv("WEATHERAPI_KEY")
 LOCATION = "San Francisco"
-OUTPUT_PATH = "data/weather.json"
+OUTPUT_PATH = "weather.json"
 
 def fetch_weather():
     url = f"https://api.weatherapi.com/v1/current.json?key={API_KEY}&q={LOCATION}"
@@ -23,9 +23,6 @@ def fetch_weather():
         "temp_c": data["current"]["temp_c"],
         "condition": data["current"]["condition"]["text"]
     }
-
-    # ✅ Ensure the `data/` directory exists
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(result, f, indent=2)
