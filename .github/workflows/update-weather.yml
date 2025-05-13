@@ -2,8 +2,8 @@ name: Update Weather Data
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
-  workflow_dispatch:     # Manual trigger support
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:     # Manual trigger
 
 jobs:
   update-weather:
@@ -22,6 +22,8 @@ jobs:
 
       - name: Run Weather Script
         run: python weather.py
+        env:
+          WEATHERAPI_KEY: ${{ secrets.WEATHERAPI_KEY }}
 
       - name: Commit Weather JSON
         run: |
@@ -30,5 +32,3 @@ jobs:
           git add weather.json
           git commit -m "🔄 Update weather data"
           git push
-        env:
-          WEATHERAPI_KEY: ${{ secrets.WEATHERAPI_KEY }}
