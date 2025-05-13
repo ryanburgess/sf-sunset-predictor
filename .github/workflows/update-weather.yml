@@ -5,6 +5,9 @@ on:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:     # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   update-weather:
     runs-on: ubuntu-latest
@@ -30,5 +33,9 @@ jobs:
           git config --global user.name "MiniHabits Bot"
           git config --global user.email "bot@minihabits.local"
           git add weather.json
-          git commit -m "🔄 Update weather data"
+          git commit -m "🔄 Update weather data" || echo "No changes to commit"
           git push
+        env:
+          WEATHERAPI_KEY: ${{ secrets.WEATHERAPI_KEY }}
+          # ✅ Authenticate push with GitHub token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
