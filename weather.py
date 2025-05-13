@@ -1,9 +1,6 @@
-import requests
-import json
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
+import json
+import requests
 
 API_KEY = os.getenv("WEATHERAPI_KEY")
 LOCATION = "San Francisco"
@@ -23,8 +20,12 @@ def fetch_weather():
 
     result = {
         "temp_f": data["current"]["temp_f"],
+        "temp_c": data["current"]["temp_c"],
         "condition": data["current"]["condition"]["text"]
     }
+
+    # ✅ Ensure the `data/` directory exists
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(result, f, indent=2)
