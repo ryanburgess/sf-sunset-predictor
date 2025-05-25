@@ -11,7 +11,7 @@
     "astronomical_twilight_end": "8:51 PM",
     "day_length": 52098,
     "sunrise_score": 6,
-    "sunset_score": 5,
+    "sunset_score": 6,
     "moon_phase": {
       "value": 26.17,
       "label": "Waning Crescent",
@@ -20,87 +20,63 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-05-25T01:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 69
-        },
-        "fog_score": 6.9
-      },
-      {
-        "time": "2025-05-25T02:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 62
-        },
-        "fog_score": 6.2
-      },
-      {
-        "time": "2025-05-25T03:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 57
-        },
-        "fog_score": 5.7
-      },
-      {
-        "time": "2025-05-25T04:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 96
-        },
-        "fog_score": 9.6
-      },
-      {
         "time": "2025-05-25T05:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 52
+          "total": 84
         },
-        "fog_score": 5.2
+        "fog_score": 8.4
       },
       {
         "time": "2025-05-25T06:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 34
+          "total": 75
         },
-        "fog_score": 3.4
+        "fog_score": 7.5
       },
       {
         "time": "2025-05-25T07:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 44
+          "total": 63
         },
-        "fog_score": 4.4
+        "fog_score": 6.3
       },
       {
         "time": "2025-05-25T08:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 26
+          "total": 42
         },
-        "fog_score": 2.6
+        "fog_score": 4.2
       },
       {
         "time": "2025-05-25T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 19
+          "total": 30
         },
-        "fog_score": 1.9
+        "fog_score": 3.0
       },
       {
         "time": "2025-05-25T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 22
+          "total": 28
         },
-        "fog_score": 2.2
+        "fog_score": 2.8
       },
       {
         "time": "2025-05-25T11:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 24
+        },
+        "fog_score": 2.4
+      },
+      {
+        "time": "2025-05-25T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 19
@@ -108,12 +84,36 @@
         "fog_score": 1.9
       },
       {
-        "time": "2025-05-25T12:00:00",
+        "time": "2025-05-25T13:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 73
+          "total": 78
         },
-        "fog_score": 7.3
+        "fog_score": 7.8
+      },
+      {
+        "time": "2025-05-25T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 87
+        },
+        "fog_score": 8.7
+      },
+      {
+        "time": "2025-05-25T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
+      },
+      {
+        "time": "2025-05-25T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
       }
     ],
     "twilight_phases": [
@@ -127,12 +127,16 @@
         "label": "Golden Hour",
         "start": "5:52 AM",
         "end": "6:52 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 7.8
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "5:52 AM",
+      "phase": "Golden Hour",
+      "fog_score": 7.8
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-05-25T08:05:37.587204+00:00"
+    "updated_at": "2025-05-25T12:07:13.546157+00:00"
   },
   "los-angeles": {
     "sunrise": "5:45 AM",
@@ -146,7 +150,7 @@
     "astronomical_twilight_end": "8:23 PM",
     "day_length": 50970,
     "sunrise_score": 3,
-    "sunset_score": 4,
+    "sunset_score": 5,
     "moon_phase": {
       "value": 26.17,
       "label": "Waning Crescent",
@@ -155,60 +159,28 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-05-25T01:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 36
-        },
-        "fog_score": 3.6
-      },
-      {
-        "time": "2025-05-25T02:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 37
-        },
-        "fog_score": 3.7
-      },
-      {
-        "time": "2025-05-25T03:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 34
-        },
-        "fog_score": 3.4
-      },
-      {
-        "time": "2025-05-25T04:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 86
-        },
-        "fog_score": 8.6
-      },
-      {
         "time": "2025-05-25T05:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 86
+          "total": 64
         },
-        "fog_score": 8.6
+        "fog_score": 6.4
       },
       {
         "time": "2025-05-25T06:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 85
+          "total": 60
         },
-        "fog_score": 8.5
+        "fog_score": 6.0
       },
       {
         "time": "2025-05-25T07:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 78
+          "total": 60
         },
-        "fog_score": 7.8
+        "fog_score": 6.0
       },
       {
         "time": "2025-05-25T08:00:00",
@@ -222,33 +194,65 @@
         "time": "2025-05-25T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 32
+          "total": 40
         },
-        "fog_score": 3.2
+        "fog_score": 4.0
       },
       {
         "time": "2025-05-25T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 32
+          "total": 44
         },
-        "fog_score": 3.2
+        "fog_score": 4.4
       },
       {
         "time": "2025-05-25T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 33
+          "total": 44
         },
-        "fog_score": 3.3
+        "fog_score": 4.4
       },
       {
         "time": "2025-05-25T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
+          "total": 40
+        },
+        "fog_score": 4.0
+      },
+      {
+        "time": "2025-05-25T13:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
           "total": 33
         },
         "fog_score": 3.3
+      },
+      {
+        "time": "2025-05-25T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 15
+        },
+        "fog_score": 1.5
+      },
+      {
+        "time": "2025-05-25T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 16
+        },
+        "fog_score": 1.6
+      },
+      {
+        "time": "2025-05-25T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 11
+        },
+        "fog_score": 1.1
       }
     ],
     "twilight_phases": [
@@ -262,12 +266,16 @@
         "label": "Golden Hour",
         "start": "5:45 AM",
         "end": "6:45 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 3.3
       }
     ],
-    "recommended_shoot_time": null,
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-05-25T08:05:38.213716+00:00"
+    "recommended_shoot_time": {
+      "time": "5:45 AM",
+      "phase": "Golden Hour",
+      "fog_score": 3.3
+    },
+    "summary_text": "Best time to shoot: 5:45 AM \u2014 low fog (3.3) during Golden Hour.",
+    "updated_at": "2025-05-25T12:07:14.664260+00:00"
   },
   "san-diego": {
     "sunrise": "5:44 AM",
@@ -290,100 +298,100 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-05-25T01:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 62
-        },
-        "fog_score": 6.2
-      },
-      {
-        "time": "2025-05-25T02:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 55
-        },
-        "fog_score": 5.5
-      },
-      {
-        "time": "2025-05-25T03:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 56
-        },
-        "fog_score": 5.6
-      },
-      {
-        "time": "2025-05-25T04:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 83
-        },
-        "fog_score": 8.3
-      },
-      {
         "time": "2025-05-25T05:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 85
+          "total": 86
         },
-        "fog_score": 8.5
+        "fog_score": 8.6
       },
       {
         "time": "2025-05-25T06:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 93
+          "total": 79
         },
-        "fog_score": 9.3
+        "fog_score": 7.9
       },
       {
         "time": "2025-05-25T07:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 93
+          "total": 77
         },
-        "fog_score": 9.3
+        "fog_score": 7.7
       },
       {
         "time": "2025-05-25T08:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 91
+          "total": 80
         },
-        "fog_score": 9.1
+        "fog_score": 8.0
       },
       {
         "time": "2025-05-25T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 87
+          "total": 49
         },
-        "fog_score": 8.7
+        "fog_score": 4.9
       },
       {
         "time": "2025-05-25T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 40
+          "total": 30
         },
-        "fog_score": 4.0
+        "fog_score": 3.0
       },
       {
         "time": "2025-05-25T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 27
+          "total": 33
         },
-        "fog_score": 2.7
+        "fog_score": 3.3
       },
       {
         "time": "2025-05-25T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 28
+          "total": 44
         },
-        "fog_score": 2.8
+        "fog_score": 4.4
+      },
+      {
+        "time": "2025-05-25T13:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 39
+        },
+        "fog_score": 3.9
+      },
+      {
+        "time": "2025-05-25T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 37
+        },
+        "fog_score": 3.7
+      },
+      {
+        "time": "2025-05-25T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 33
+        },
+        "fog_score": 3.3
+      },
+      {
+        "time": "2025-05-25T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 49
+        },
+        "fog_score": 4.9
       }
     ],
     "twilight_phases": [
@@ -397,12 +405,16 @@
         "label": "Golden Hour",
         "start": "5:44 AM",
         "end": "6:44 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 3.9
       }
     ],
-    "recommended_shoot_time": null,
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-05-25T08:05:38.764695+00:00"
+    "recommended_shoot_time": {
+      "time": "5:44 AM",
+      "phase": "Golden Hour",
+      "fog_score": 3.9
+    },
+    "summary_text": "Best time to shoot: 5:44 AM \u2014 low fog (3.9) during Golden Hour.",
+    "updated_at": "2025-05-25T12:07:15.084078+00:00"
   },
   "lake-tahoe": {
     "sunrise": "5:39 AM",
@@ -425,60 +437,28 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-05-25T01:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 19
-        },
-        "fog_score": 1.9
-      },
-      {
-        "time": "2025-05-25T02:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 14
-        },
-        "fog_score": 1.4
-      },
-      {
-        "time": "2025-05-25T03:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 11
-        },
-        "fog_score": 1.1
-      },
-      {
-        "time": "2025-05-25T04:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      },
-      {
         "time": "2025-05-25T05:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 12
         },
-        "fog_score": 0.0
+        "fog_score": 1.2
       },
       {
         "time": "2025-05-25T06:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 9
         },
-        "fog_score": 0.0
+        "fog_score": 0.9
       },
       {
         "time": "2025-05-25T07:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 7
         },
-        "fog_score": 0.0
+        "fog_score": 0.7
       },
       {
         "time": "2025-05-25T08:00:00",
@@ -492,33 +472,65 @@
         "time": "2025-05-25T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 25
+          "total": 0.0
         },
-        "fog_score": 2.5
+        "fog_score": 0.0
       },
       {
         "time": "2025-05-25T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 80
+          "total": 37
         },
-        "fog_score": 8.0
+        "fog_score": 3.7
       },
       {
         "time": "2025-05-25T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 100
+          "total": 81
         },
-        "fog_score": 10.0
+        "fog_score": 8.1
       },
       {
         "time": "2025-05-25T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 95
+          "total": 77
         },
-        "fog_score": 9.5
+        "fog_score": 7.7
+      },
+      {
+        "time": "2025-05-25T13:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 64
+        },
+        "fog_score": 6.4
+      },
+      {
+        "time": "2025-05-25T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 12
+        },
+        "fog_score": 1.2
+      },
+      {
+        "time": "2025-05-25T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 19
+        },
+        "fog_score": 1.9
+      },
+      {
+        "time": "2025-05-25T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 8
+        },
+        "fog_score": 0.8
       }
     ],
     "twilight_phases": [
@@ -532,12 +544,16 @@
         "label": "Golden Hour",
         "start": "5:39 AM",
         "end": "6:39 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 6.4
       }
     ],
-    "recommended_shoot_time": null,
+    "recommended_shoot_time": {
+      "time": "5:39 AM",
+      "phase": "Golden Hour",
+      "fog_score": 6.4
+    },
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-05-25T08:05:39.265511+00:00"
+    "updated_at": "2025-05-25T12:07:15.867221+00:00"
   },
   "napa": {
     "sunrise": "5:50 AM",
@@ -550,8 +566,8 @@
     "astronomical_twilight_begin": "5:19 AM",
     "astronomical_twilight_end": "8:53 PM",
     "day_length": 52266,
-    "sunrise_score": 5,
-    "sunset_score": 8,
+    "sunrise_score": 6,
+    "sunset_score": 7,
     "moon_phase": {
       "value": 26.17,
       "label": "Waning Crescent",
@@ -560,100 +576,100 @@
     },
     "fog_forecast": [
       {
-        "time": "2025-05-25T01:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 39
-        },
-        "fog_score": 3.9
-      },
-      {
-        "time": "2025-05-25T02:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 42
-        },
-        "fog_score": 4.2
-      },
-      {
-        "time": "2025-05-25T03:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 43
-        },
-        "fog_score": 4.3
-      },
-      {
-        "time": "2025-05-25T04:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 92
-        },
-        "fog_score": 9.2
-      },
-      {
         "time": "2025-05-25T05:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 95
+          "total": 58
         },
-        "fog_score": 9.5
+        "fog_score": 5.8
       },
       {
         "time": "2025-05-25T06:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 96
+          "total": 58
         },
-        "fog_score": 9.6
+        "fog_score": 5.8
       },
       {
         "time": "2025-05-25T07:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 71
+          "total": 62
         },
-        "fog_score": 7.1
+        "fog_score": 6.2
       },
       {
         "time": "2025-05-25T08:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 54
+          "total": 46
         },
-        "fog_score": 5.4
+        "fog_score": 4.6
       },
       {
         "time": "2025-05-25T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 50
+          "total": 46
         },
-        "fog_score": 5.0
+        "fog_score": 4.6
       },
       {
         "time": "2025-05-25T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 53
+          "total": 38
         },
-        "fog_score": 5.3
+        "fog_score": 3.8
       },
       {
         "time": "2025-05-25T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 14
+          "total": 24
         },
-        "fog_score": 1.4
+        "fog_score": 2.4
       },
       {
         "time": "2025-05-25T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 10
+          "total": 22
         },
-        "fog_score": 1.0
+        "fog_score": 2.2
+      },
+      {
+        "time": "2025-05-25T13:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 8
+        },
+        "fog_score": 0.8
+      },
+      {
+        "time": "2025-05-25T14:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 57
+        },
+        "fog_score": 5.7
+      },
+      {
+        "time": "2025-05-25T15:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
+      },
+      {
+        "time": "2025-05-25T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 100
+        },
+        "fog_score": 10.0
       }
     ],
     "twilight_phases": [
@@ -667,11 +683,15 @@
         "label": "Golden Hour",
         "start": "5:50 AM",
         "end": "6:50 AM",
-        "avg_fog_score": null
+        "avg_fog_score": 0.8
       }
     ],
-    "recommended_shoot_time": null,
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-05-25T08:05:39.790509+00:00"
+    "recommended_shoot_time": {
+      "time": "5:50 AM",
+      "phase": "Golden Hour",
+      "fog_score": 0.8
+    },
+    "summary_text": "Best time to shoot: 5:50 AM \u2014 low fog (0.8) during Golden Hour.",
+    "updated_at": "2025-05-25T12:07:16.264480+00:00"
   }
 }
