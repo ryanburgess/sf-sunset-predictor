@@ -44,10 +44,16 @@ cities = [
         "observer": LocationInfo("Lake Tahoe", "USA", "America/Los_Angeles", 39.0968, -120.0324).observer
     },
     {
-        "slug": "napa",
-        "name": "Napa",
+        "slug": "truckee",
+        "name": "Truckee",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("Napa", "USA", "America/Los_Angeles", 38.2975, -122.2869).observer
+        "observer": LocationInfo("Truckee", "USA", "America/Los_Angeles", 39.327962, -120.183253).observer
+    },
+    {
+        "slug": "tokyo",
+        "name": "Tokyo",
+        "timezone": "Asia/Tokyo",
+        "observer": LocationInfo("Tokyo", "Japan", "Asia/Tokyo", 35.6895, 139.6917).observer
     }
 ]
 
