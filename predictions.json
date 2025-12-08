@@ -1,34 +1,26 @@
 {
   "san-francisco": {
-    "sunrise": "7:12 AM",
+    "sunrise": "7:13 AM",
     "sunset": "4:50 PM",
     "solar_noon": "12:01 PM",
-    "civil_twilight_begin": "6:42 AM",
+    "civil_twilight_begin": "6:43 AM",
     "civil_twilight_end": "5:20 PM",
-    "nautical_twilight_begin": "6:42 AM",
+    "nautical_twilight_begin": "6:43 AM",
     "nautical_twilight_end": "5:20 PM",
-    "astronomical_twilight_begin": "6:42 AM",
+    "astronomical_twilight_begin": "6:43 AM",
     "astronomical_twilight_end": "5:20 PM",
-    "day_length": 34678,
+    "day_length": 34631,
     "sunrise_score": 4,
-    "sunset_score": 9,
+    "sunset_score": 5,
     "moon_phase": {
-      "value": 16.68,
+      "value": 17.69,
       "label": "Waning Gibbous",
-      "moonrise": "6:44 PM",
-      "moonset": "10:16 AM"
+      "moonrise": "7:59 PM",
+      "moonset": "10:56 AM"
     },
     "fog_forecast": [
       {
-        "time": "2025-12-07T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 86
-        },
-        "fog_score": 8.6
-      },
-      {
-        "time": "2025-12-07T13:00:00",
+        "time": "2025-12-07T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 78
@@ -36,55 +28,55 @@
         "fog_score": 7.8
       },
       {
-        "time": "2025-12-07T14:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 89
-        },
-        "fog_score": 8.9
-      },
-      {
-        "time": "2025-12-07T15:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 90
-        },
-        "fog_score": 9.0
-      },
-      {
-        "time": "2025-12-07T16:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
         "time": "2025-12-07T17:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 99
+          "total": 75
         },
-        "fog_score": 9.9
+        "fog_score": 7.5
       },
       {
         "time": "2025-12-07T18:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 49
+          "total": 59
         },
-        "fog_score": 4.9
+        "fog_score": 5.9
       },
       {
         "time": "2025-12-07T19:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 8
+          "total": 61
         },
-        "fog_score": 0.8
+        "fog_score": 6.1
       },
       {
         "time": "2025-12-07T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 1
+        },
+        "fog_score": 0.1
+      },
+      {
+        "time": "2025-12-07T21:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 5
+        },
+        "fog_score": 0.5
+      },
+      {
+        "time": "2025-12-07T22:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 2
+        },
+        "fog_score": 0.2
+      },
+      {
+        "time": "2025-12-07T23:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 0.0
@@ -92,82 +84,78 @@
         "fog_score": 0.0
       },
       {
-        "time": "2025-12-07T21:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 7
-        },
-        "fog_score": 0.7
-      },
-      {
-        "time": "2025-12-07T22:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 7
-        },
-        "fog_score": 0.7
-      },
-      {
-        "time": "2025-12-07T23:00:00",
+        "time": "2025-12-08T00:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 2
         },
         "fog_score": 0.2
-      }
-    ],
-    "twilight_phases": [
-      {
-        "label": "Civil Twilight",
-        "start": "6:42 AM",
-        "end": "7:12 AM",
-        "avg_fog_score": 9.0
       },
       {
-        "label": "Golden Hour",
-        "start": "7:12 AM",
-        "end": "8:12 AM",
-        "avg_fog_score": 10.0
-      }
-    ],
-    "recommended_shoot_time": {
-      "time": "6:42 AM",
-      "phase": "Civil Twilight",
-      "fog_score": 9.0
-    },
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-12-07T20:05:29.762754+00:00"
-  },
-  "los-angeles": {
-    "sunrise": "6:45 AM",
-    "sunset": "4:43 PM",
-    "solar_noon": "11:44 AM",
-    "civil_twilight_begin": "6:17 AM",
-    "civil_twilight_end": "5:11 PM",
-    "nautical_twilight_begin": "6:17 AM",
-    "nautical_twilight_end": "5:11 PM",
-    "astronomical_twilight_begin": "6:17 AM",
-    "astronomical_twilight_end": "5:11 PM",
-    "day_length": 35844,
-    "sunrise_score": 3,
-    "sunset_score": 6,
-    "moon_phase": {
-      "value": 16.68,
-      "label": "Waning Gibbous",
-      "moonrise": "6:39 PM",
-      "moonset": "9:47 AM"
-    },
-    "fog_forecast": [
+        "time": "2025-12-08T01:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 7
+        },
+        "fog_score": 0.7
+      },
       {
-        "time": "2025-12-07T12:00:00",
+        "time": "2025-12-08T02:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 6
+        },
+        "fog_score": 0.6
+      },
+      {
+        "time": "2025-12-08T03:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 11
         },
         "fog_score": 1.1
+      }
+    ],
+    "twilight_phases": [
+      {
+        "label": "Civil Twilight",
+        "start": "6:43 AM",
+        "end": "7:13 AM",
+        "avg_fog_score": null
       },
       {
-        "time": "2025-12-07T13:00:00",
+        "label": "Golden Hour",
+        "start": "7:13 AM",
+        "end": "8:13 AM",
+        "avg_fog_score": null
+      }
+    ],
+    "recommended_shoot_time": null,
+    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
+    "updated_at": "2025-12-08T00:23:37.214683+00:00"
+  },
+  "los-angeles": {
+    "sunrise": "6:46 AM",
+    "sunset": "4:43 PM",
+    "solar_noon": "11:44 AM",
+    "civil_twilight_begin": "6:18 AM",
+    "civil_twilight_end": "5:11 PM",
+    "nautical_twilight_begin": "6:18 AM",
+    "nautical_twilight_end": "5:11 PM",
+    "astronomical_twilight_begin": "6:18 AM",
+    "astronomical_twilight_end": "5:11 PM",
+    "day_length": 35804,
+    "sunrise_score": 3,
+    "sunset_score": 4,
+    "moon_phase": {
+      "value": 17.69,
+      "label": "Waning Gibbous",
+      "moonrise": "7:52 PM",
+      "moonset": "10:30 AM"
+    },
+    "fog_forecast": [
+      {
+        "time": "2025-12-07T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 9
@@ -175,55 +163,7 @@
         "fog_score": 0.9
       },
       {
-        "time": "2025-12-07T14:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 6
-        },
-        "fog_score": 0.6
-      },
-      {
-        "time": "2025-12-07T15:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
-      },
-      {
-        "time": "2025-12-07T16:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
-      },
-      {
         "time": "2025-12-07T17:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
-      },
-      {
-        "time": "2025-12-07T18:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 3
-        },
-        "fog_score": 0.3
-      },
-      {
-        "time": "2025-12-07T19:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
-      },
-      {
-        "time": "2025-12-07T20:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 7
@@ -231,15 +171,7 @@
         "fog_score": 0.7
       },
       {
-        "time": "2025-12-07T21:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 17
-        },
-        "fog_score": 1.7
-      },
-      {
-        "time": "2025-12-07T22:00:00",
+        "time": "2025-12-07T18:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 6
@@ -247,74 +179,15 @@
         "fog_score": 0.6
       },
       {
-        "time": "2025-12-07T23:00:00",
+        "time": "2025-12-07T19:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 28
+          "total": 6
         },
-        "fog_score": 2.8
-      }
-    ],
-    "twilight_phases": [
-      {
-        "label": "Civil Twilight",
-        "start": "6:17 AM",
-        "end": "6:45 AM",
-        "avg_fog_score": null
+        "fog_score": 0.6
       },
       {
-        "label": "Golden Hour",
-        "start": "6:45 AM",
-        "end": "7:45 AM",
-        "avg_fog_score": 0.2
-      }
-    ],
-    "recommended_shoot_time": {
-      "time": "6:45 AM",
-      "phase": "Golden Hour",
-      "fog_score": 0.2
-    },
-    "summary_text": "Best time to shoot: 6:45 AM \u2014 low fog (0.2) during Golden Hour.",
-    "updated_at": "2025-12-07T20:05:30.372655+00:00"
-  },
-  "san-diego": {
-    "sunrise": "6:38 AM",
-    "sunset": "4:42 PM",
-    "solar_noon": "11:39 AM",
-    "civil_twilight_begin": "6:10 AM",
-    "civil_twilight_end": "5:09 PM",
-    "nautical_twilight_begin": "6:10 AM",
-    "nautical_twilight_end": "5:09 PM",
-    "astronomical_twilight_begin": "6:10 AM",
-    "astronomical_twilight_end": "5:09 PM",
-    "day_length": 36235,
-    "sunrise_score": 3,
-    "sunset_score": 8,
-    "moon_phase": {
-      "value": 16.68,
-      "label": "Waning Gibbous",
-      "moonrise": "6:39 PM",
-      "moonset": "9:39 AM"
-    },
-    "fog_forecast": [
-      {
-        "time": "2025-12-07T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 24
-        },
-        "fog_score": 2.4
-      },
-      {
-        "time": "2025-12-07T13:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      },
-      {
-        "time": "2025-12-07T14:00:00",
+        "time": "2025-12-07T20:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 2
@@ -322,44 +195,131 @@
         "fog_score": 0.2
       },
       {
-        "time": "2025-12-07T15:00:00",
+        "time": "2025-12-07T21:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 2
         },
-        "fog_score": 0.0
+        "fog_score": 0.2
       },
+      {
+        "time": "2025-12-07T22:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 5
+        },
+        "fog_score": 0.5
+      },
+      {
+        "time": "2025-12-07T23:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 14
+        },
+        "fog_score": 1.4
+      },
+      {
+        "time": "2025-12-08T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 54
+        },
+        "fog_score": 5.4
+      },
+      {
+        "time": "2025-12-08T01:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 65
+        },
+        "fog_score": 6.5
+      },
+      {
+        "time": "2025-12-08T02:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 99
+        },
+        "fog_score": 9.9
+      },
+      {
+        "time": "2025-12-08T03:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 84
+        },
+        "fog_score": 8.4
+      }
+    ],
+    "twilight_phases": [
+      {
+        "label": "Civil Twilight",
+        "start": "6:18 AM",
+        "end": "6:46 AM",
+        "avg_fog_score": null
+      },
+      {
+        "label": "Golden Hour",
+        "start": "6:46 AM",
+        "end": "7:46 AM",
+        "avg_fog_score": null
+      }
+    ],
+    "recommended_shoot_time": null,
+    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
+    "updated_at": "2025-12-08T00:23:38.073339+00:00"
+  },
+  "san-diego": {
+    "sunrise": "6:39 AM",
+    "sunset": "4:42 PM",
+    "solar_noon": "11:40 AM",
+    "civil_twilight_begin": "6:11 AM",
+    "civil_twilight_end": "5:10 PM",
+    "nautical_twilight_begin": "6:11 AM",
+    "nautical_twilight_end": "5:10 PM",
+    "astronomical_twilight_begin": "6:11 AM",
+    "astronomical_twilight_end": "5:10 PM",
+    "day_length": 36197,
+    "sunrise_score": 3,
+    "sunset_score": 7,
+    "moon_phase": {
+      "value": 17.69,
+      "label": "Waning Gibbous",
+      "moonrise": "7:51 PM",
+      "moonset": "10:22 AM"
+    },
+    "fog_forecast": [
       {
         "time": "2025-12-07T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 16
         },
-        "fog_score": 0.0
+        "fog_score": 1.6
       },
       {
         "time": "2025-12-07T17:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 12
         },
-        "fog_score": 0.0
+        "fog_score": 1.2
       },
       {
         "time": "2025-12-07T18:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 9
         },
-        "fog_score": 0.0
+        "fog_score": 0.9
       },
       {
         "time": "2025-12-07T19:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 7
         },
-        "fog_score": 0.0
+        "fog_score": 0.7
       },
       {
         "time": "2025-12-07T20:00:00",
@@ -373,9 +333,9 @@
         "time": "2025-12-07T21:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 2
         },
-        "fog_score": 0.0
+        "fog_score": 0.2
       },
       {
         "time": "2025-12-07T22:00:00",
@@ -389,35 +349,63 @@
         "time": "2025-12-07T23:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 2
+          "total": 0.0
         },
-        "fog_score": 0.2
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-12-08T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-12-08T01:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 4
+        },
+        "fog_score": 0.4
+      },
+      {
+        "time": "2025-12-08T02:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 5
+        },
+        "fog_score": 0.5
+      },
+      {
+        "time": "2025-12-08T03:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 27
+        },
+        "fog_score": 2.7
       }
     ],
     "twilight_phases": [
       {
         "label": "Civil Twilight",
-        "start": "6:10 AM",
-        "end": "6:38 AM",
+        "start": "6:11 AM",
+        "end": "6:39 AM",
         "avg_fog_score": null
       },
       {
         "label": "Golden Hour",
-        "start": "6:38 AM",
-        "end": "7:38 AM",
-        "avg_fog_score": 0.0
+        "start": "6:39 AM",
+        "end": "7:39 AM",
+        "avg_fog_score": null
       }
     ],
-    "recommended_shoot_time": {
-      "time": "6:38 AM",
-      "phase": "Golden Hour",
-      "fog_score": 0.0
-    },
-    "summary_text": "Best time to shoot: 6:38 AM \u2014 low fog (0.0) during Golden Hour.",
-    "updated_at": "2025-12-07T20:05:30.851078+00:00"
+    "recommended_shoot_time": null,
+    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
+    "updated_at": "2025-12-08T00:23:38.879681+00:00"
   },
   "lake-tahoe": {
-    "sunrise": "7:06 AM",
+    "sunrise": "7:07 AM",
     "sunset": "4:37 PM",
     "solar_noon": "11:51 AM",
     "civil_twilight_begin": "6:36 AM",
@@ -426,26 +414,42 @@
     "nautical_twilight_end": "5:07 PM",
     "astronomical_twilight_begin": "6:36 AM",
     "astronomical_twilight_end": "5:07 PM",
-    "day_length": 34233,
+    "day_length": 34184,
     "sunrise_score": 3,
-    "sunset_score": 8,
+    "sunset_score": 3,
     "moon_phase": {
-      "value": 16.68,
+      "value": 17.69,
       "label": "Waning Gibbous",
-      "moonrise": "6:29 PM",
-      "moonset": "10:10 AM"
+      "moonrise": "7:45 PM",
+      "moonset": "10:50 AM"
     },
     "fog_forecast": [
       {
-        "time": "2025-12-07T12:00:00",
+        "time": "2025-12-07T16:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 74
+          "total": 59
         },
-        "fog_score": 7.4
+        "fog_score": 5.9
       },
       {
-        "time": "2025-12-07T13:00:00",
+        "time": "2025-12-07T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 68
+        },
+        "fog_score": 6.8
+      },
+      {
+        "time": "2025-12-07T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 75
+        },
+        "fog_score": 7.5
+      },
+      {
+        "time": "2025-12-07T19:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 80
@@ -453,60 +457,12 @@
         "fog_score": 8.0
       },
       {
-        "time": "2025-12-07T14:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 84
-        },
-        "fog_score": 8.4
-      },
-      {
-        "time": "2025-12-07T15:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T16:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T17:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T18:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T19:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
         "time": "2025-12-07T20:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 30
+          "total": 45
         },
-        "fog_score": 3.0
+        "fog_score": 4.5
       },
       {
         "time": "2025-12-07T21:00:00",
@@ -520,148 +476,9 @@
         "time": "2025-12-07T22:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 0.0
+          "total": 50
         },
-        "fog_score": 0.0
-      },
-      {
-        "time": "2025-12-07T23:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 0.0
-        },
-        "fog_score": 0.0
-      }
-    ],
-    "twilight_phases": [
-      {
-        "label": "Civil Twilight",
-        "start": "6:36 AM",
-        "end": "7:06 AM",
-        "avg_fog_score": 10.0
-      },
-      {
-        "label": "Golden Hour",
-        "start": "7:06 AM",
-        "end": "8:06 AM",
-        "avg_fog_score": 10.0
-      }
-    ],
-    "recommended_shoot_time": {
-      "time": "6:36 AM",
-      "phase": "Civil Twilight",
-      "fog_score": 10.0
-    },
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-12-07T20:05:31.429655+00:00"
-  },
-  "truckee": {
-    "sunrise": "7:07 AM",
-    "sunset": "4:36 PM",
-    "solar_noon": "11:52 AM",
-    "civil_twilight_begin": "6:37 AM",
-    "civil_twilight_end": "5:07 PM",
-    "nautical_twilight_begin": "6:37 AM",
-    "nautical_twilight_end": "5:07 PM",
-    "astronomical_twilight_begin": "6:37 AM",
-    "astronomical_twilight_end": "5:07 PM",
-    "day_length": 34153,
-    "sunrise_score": 6,
-    "sunset_score": 8,
-    "moon_phase": {
-      "value": 16.68,
-      "label": "Waning Gibbous",
-      "moonrise": "6:28 PM",
-      "moonset": "10:12 AM"
-    },
-    "fog_forecast": [
-      {
-        "time": "2025-12-07T12:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 70
-        },
-        "fog_score": 7.0
-      },
-      {
-        "time": "2025-12-07T13:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 77
-        },
-        "fog_score": 7.7
-      },
-      {
-        "time": "2025-12-07T14:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 82
-        },
-        "fog_score": 8.2
-      },
-      {
-        "time": "2025-12-07T15:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T16:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T17:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T18:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 100
-        },
-        "fog_score": 10.0
-      },
-      {
-        "time": "2025-12-07T19:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 60
-        },
-        "fog_score": 6.0
-      },
-      {
-        "time": "2025-12-07T20:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 11
-        },
-        "fog_score": 1.1
-      },
-      {
-        "time": "2025-12-07T21:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 10
-        },
-        "fog_score": 1.0
-      },
-      {
-        "time": "2025-12-07T22:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 2
-        },
-        "fog_score": 0.2
+        "fog_score": 5.0
       },
       {
         "time": "2025-12-07T23:00:00",
@@ -670,76 +487,17 @@
           "total": 6
         },
         "fog_score": 0.6
-      }
-    ],
-    "twilight_phases": [
-      {
-        "label": "Civil Twilight",
-        "start": "6:37 AM",
-        "end": "7:07 AM",
-        "avg_fog_score": 10.0
       },
       {
-        "label": "Golden Hour",
-        "start": "7:07 AM",
-        "end": "8:07 AM",
-        "avg_fog_score": 10.0
-      }
-    ],
-    "recommended_shoot_time": {
-      "time": "6:37 AM",
-      "phase": "Civil Twilight",
-      "fog_score": 10.0
-    },
-    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-12-07T20:05:32.058483+00:00"
-  },
-  "tokyo": {
-    "sunrise": "6:37 AM",
-    "sunset": "4:27 PM",
-    "solar_noon": "11:32 AM",
-    "civil_twilight_begin": "6:08 AM",
-    "civil_twilight_end": "4:56 PM",
-    "nautical_twilight_begin": "6:08 AM",
-    "nautical_twilight_end": "4:56 PM",
-    "astronomical_twilight_begin": "6:08 AM",
-    "astronomical_twilight_end": "4:56 PM",
-    "day_length": 35379,
-    "sunrise_score": 2,
-    "sunset_score": 4,
-    "moon_phase": {
-      "value": 16.68,
-      "label": "Waning Gibbous",
-      "moonrise": "6:43 PM",
-      "moonset": "9:04 AM"
-    },
-    "fog_forecast": [
-      {
-        "time": "2025-12-08T05:00:00",
+        "time": "2025-12-08T00:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 1
+          "total": 0.0
         },
-        "fog_score": 0.1
+        "fog_score": 0.0
       },
       {
-        "time": "2025-12-08T06:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 1
-        },
-        "fog_score": 0.1
-      },
-      {
-        "time": "2025-12-08T07:00:00",
-        "visibility": "unknown",
-        "cloud_cover": {
-          "total": 1
-        },
-        "fog_score": 0.1
-      },
-      {
-        "time": "2025-12-08T08:00:00",
+        "time": "2025-12-08T01:00:00",
         "visibility": "unknown",
         "cloud_cover": {
           "total": 2
@@ -747,44 +505,234 @@
         "fog_score": 0.2
       },
       {
+        "time": "2025-12-08T02:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 8
+        },
+        "fog_score": 0.8
+      },
+      {
+        "time": "2025-12-08T03:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 56
+        },
+        "fog_score": 5.6
+      }
+    ],
+    "twilight_phases": [
+      {
+        "label": "Civil Twilight",
+        "start": "6:36 AM",
+        "end": "7:07 AM",
+        "avg_fog_score": null
+      },
+      {
+        "label": "Golden Hour",
+        "start": "7:07 AM",
+        "end": "8:07 AM",
+        "avg_fog_score": null
+      }
+    ],
+    "recommended_shoot_time": null,
+    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
+    "updated_at": "2025-12-08T00:23:39.743007+00:00"
+  },
+  "truckee": {
+    "sunrise": "7:08 AM",
+    "sunset": "4:37 PM",
+    "solar_noon": "11:52 AM",
+    "civil_twilight_begin": "6:38 AM",
+    "civil_twilight_end": "5:07 PM",
+    "nautical_twilight_begin": "6:38 AM",
+    "nautical_twilight_end": "5:07 PM",
+    "astronomical_twilight_begin": "6:38 AM",
+    "astronomical_twilight_end": "5:07 PM",
+    "day_length": 34103,
+    "sunrise_score": 6,
+    "sunset_score": 4,
+    "moon_phase": {
+      "value": 17.69,
+      "label": "Waning Gibbous",
+      "moonrise": "7:45 PM",
+      "moonset": "10:51 AM"
+    },
+    "fog_forecast": [
+      {
+        "time": "2025-12-07T16:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 72
+        },
+        "fog_score": 7.2
+      },
+      {
+        "time": "2025-12-07T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 78
+        },
+        "fog_score": 7.8
+      },
+      {
+        "time": "2025-12-07T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 83
+        },
+        "fog_score": 8.3
+      },
+      {
+        "time": "2025-12-07T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 87
+        },
+        "fog_score": 8.7
+      },
+      {
+        "time": "2025-12-07T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 27
+        },
+        "fog_score": 2.7
+      },
+      {
+        "time": "2025-12-07T21:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 7
+        },
+        "fog_score": 0.7
+      },
+      {
+        "time": "2025-12-07T22:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 40
+        },
+        "fog_score": 4.0
+      },
+      {
+        "time": "2025-12-07T23:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 6
+        },
+        "fog_score": 0.6
+      },
+      {
+        "time": "2025-12-08T00:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 0.0
+        },
+        "fog_score": 0.0
+      },
+      {
+        "time": "2025-12-08T01:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 1
+        },
+        "fog_score": 0.1
+      },
+      {
+        "time": "2025-12-08T02:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 86
+        },
+        "fog_score": 8.6
+      },
+      {
+        "time": "2025-12-08T03:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 53
+        },
+        "fog_score": 5.3
+      }
+    ],
+    "twilight_phases": [
+      {
+        "label": "Civil Twilight",
+        "start": "6:38 AM",
+        "end": "7:08 AM",
+        "avg_fog_score": null
+      },
+      {
+        "label": "Golden Hour",
+        "start": "7:08 AM",
+        "end": "8:08 AM",
+        "avg_fog_score": null
+      }
+    ],
+    "recommended_shoot_time": null,
+    "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
+    "updated_at": "2025-12-08T00:23:40.596337+00:00"
+  },
+  "tokyo": {
+    "sunrise": "6:38 AM",
+    "sunset": "4:27 PM",
+    "solar_noon": "11:33 AM",
+    "civil_twilight_begin": "6:09 AM",
+    "civil_twilight_end": "4:56 PM",
+    "nautical_twilight_begin": "6:09 AM",
+    "nautical_twilight_end": "4:56 PM",
+    "astronomical_twilight_begin": "6:09 AM",
+    "astronomical_twilight_end": "4:56 PM",
+    "day_length": 35334,
+    "sunrise_score": 2,
+    "sunset_score": 6,
+    "moon_phase": {
+      "value": 17.69,
+      "label": "Waning Gibbous",
+      "moonrise": "7:56 PM",
+      "moonset": "9:53 AM"
+    },
+    "fog_forecast": [
+      {
         "time": "2025-12-08T09:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 10
+          "total": 1
         },
-        "fog_score": 1.0
+        "fog_score": 0.1
       },
       {
         "time": "2025-12-08T10:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 52
+          "total": 1
         },
-        "fog_score": 5.2
+        "fog_score": 0.1
       },
       {
         "time": "2025-12-08T11:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 95
+          "total": 7
         },
-        "fog_score": 9.5
+        "fog_score": 0.7
       },
       {
         "time": "2025-12-08T12:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 100
+          "total": 96
         },
-        "fog_score": 10.0
+        "fog_score": 9.6
       },
       {
         "time": "2025-12-08T13:00:00",
         "visibility": "unknown",
         "cloud_cover": {
-          "total": 100
+          "total": 97
         },
-        "fog_score": 10.0
+        "fog_score": 9.7
       },
       {
         "time": "2025-12-08T14:00:00",
@@ -809,24 +757,56 @@
           "total": 100
         },
         "fog_score": 10.0
+      },
+      {
+        "time": "2025-12-08T17:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 95
+        },
+        "fog_score": 9.5
+      },
+      {
+        "time": "2025-12-08T18:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 80
+        },
+        "fog_score": 8.0
+      },
+      {
+        "time": "2025-12-08T19:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 99
+        },
+        "fog_score": 9.9
+      },
+      {
+        "time": "2025-12-08T20:00:00",
+        "visibility": "unknown",
+        "cloud_cover": {
+          "total": 99
+        },
+        "fog_score": 9.9
       }
     ],
     "twilight_phases": [
       {
         "label": "Civil Twilight",
-        "start": "6:08 AM",
-        "end": "6:37 AM",
+        "start": "6:09 AM",
+        "end": "6:38 AM",
         "avg_fog_score": null
       },
       {
         "label": "Golden Hour",
-        "start": "6:37 AM",
-        "end": "7:37 AM",
+        "start": "6:38 AM",
+        "end": "7:38 AM",
         "avg_fog_score": null
       }
     ],
     "recommended_shoot_time": null,
     "summary_text": "No optimal low-fog window during twilight today. Consider shooting at sunset or when fog clears.",
-    "updated_at": "2025-12-07T20:05:32.631292+00:00"
+    "updated_at": "2025-12-08T00:23:41.730891+00:00"
   }
 }
