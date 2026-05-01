@@ -20,16 +20,22 @@ METEOSOURCE_API_KEY = os.environ.get("METEOSOURCE_API_KEY")
 # List of cities with coordinates and timezone
 cities = [
     {
-        "slug": "san-francisco",
-        "name": "San Francisco",
-        "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("San Francisco", "USA", "America/Los_Angeles", 37.7749, -122.4194).observer
-    },
-    {
         "slug": "los-angeles",
         "name": "Los Angeles",
         "timezone": "America/Los_Angeles",
         "observer": LocationInfo("Los Angeles", "USA", "America/Los_Angeles", 34.0522, -118.2437).observer
+    },
+    {
+        "slug": "palm-springs",
+        "name": "Palm Springs",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo("Palm Springs", "USA", "America/Los_Angeles", 33.8303, -116.5453).observer
+    },
+    {
+        "slug": "san-francisco",
+        "name": "San Francisco",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo("San Francisco", "USA", "America/Los_Angeles", 37.7749, -122.4194).observer
     },
     {
         "slug": "san-diego",
