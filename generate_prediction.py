@@ -60,6 +60,36 @@ cities = [
         "name": "Tokyo",
         "timezone": "Asia/Tokyo",
         "observer": LocationInfo("Tokyo", "Japan", "Asia/Tokyo", 35.6895, 139.6917).observer
+    },
+    {
+        "slug": "london",
+        "name": "London",
+        "timezone": "Europe/London",
+        "observer": LocationInfo("London", "United Kingdom", "Europe/London", 51.5074, -0.1278).observer
+    },
+    {
+        "slug": "paris",
+        "name": "Paris",
+        "timezone": "Europe/Paris",
+        "observer": LocationInfo("Paris", "France", "Europe/Paris", 48.8566, 2.3522).observer
+    },
+    {
+        "slug": "lake-como",
+        "name": "Lake Como",
+        "timezone": "Europe/Rome",
+        "observer": LocationInfo("Lake Como", "Italy", "Europe/Rome", 45.9911, 9.2572).observer
+    },
+    {
+        "slug": "milan",
+        "name": "Milan",
+        "timezone": "Europe/Rome",
+        "observer": LocationInfo("Milan", "Italy", "Europe/Rome", 45.4642, 9.1900).observer
+    },
+    {
+        "slug": "rome",
+        "name": "Rome",
+        "timezone": "Europe/Rome",
+        "observer": LocationInfo("Rome", "Italy", "Europe/Rome", 41.9028, 12.4964).observer
     }
 ]
 
