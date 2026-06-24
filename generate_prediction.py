@@ -90,6 +90,24 @@ cities = [
         "name": "Rome",
         "timezone": "Europe/Rome",
         "observer": LocationInfo("Rome", "Italy", "Europe/Rome", 41.9028, 12.4964).observer
+    },
+    {
+        "slug": "new-york-city",
+        "name": "New York City",
+        "timezone": "America/New_York",
+        "observer": LocationInfo("New York City", "USA", "America/New_York", 40.7128, -74.0060).observer
+    },
+    {
+        "slug": "toronto",
+        "name": "Toronto",
+        "timezone": "America/Toronto",
+        "observer": LocationInfo("Toronto", "Canada", "America/Toronto", 43.6532, -79.3832).observer
+    },
+    {
+        "slug": "brooklyn",
+        "name": "Brooklyn",
+        "timezone": "America/New_York",
+        "observer": LocationInfo("Brooklyn", "USA", "America/New_York", 40.6782, -73.9442).observer
     }
 ]
 
