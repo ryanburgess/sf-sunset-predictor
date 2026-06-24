@@ -108,6 +108,12 @@ cities = [
         "name": "Brooklyn",
         "timezone": "America/New_York",
         "observer": LocationInfo("Brooklyn", "USA", "America/New_York", 40.6782, -73.9442).observer
+    },
+    {
+        "slug": "chicago",
+        "name": "Chicago",
+        "timezone": "America/Chicago",
+        "observer": LocationInfo("Chicago", "USA", "America/Chicago", 41.8781, -87.6298).observer
     }
 ]
 
