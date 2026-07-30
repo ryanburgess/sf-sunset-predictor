@@ -104,17 +104,110 @@ cities = [
         "observer": LocationInfo("Toronto", "Canada", "America/Toronto", 43.6532, -79.3832).observer
     },
     {
-        "slug": "brooklyn",
-        "name": "Brooklyn",
-        "timezone": "America/New_York",
-        "observer": LocationInfo("Brooklyn", "USA", "America/New_York", 40.6782, -73.9442).observer
-    },
-    {
         "slug": "chicago",
         "name": "Chicago",
         "timezone": "America/Chicago",
         "observer": LocationInfo("Chicago", "USA", "America/Chicago", 41.8781, -87.6298).observer
-    }
+    },
+    {
+        "slug": "montreal",
+        "name": "Montreal",
+        "timezone": "America/Toronto",
+        "observer": LocationInfo(
+            "Montreal", "Canada", "America/Toronto",
+            45.5017, -73.5673
+        ).observer
+    },
+    {
+            "slug": "vancouver",
+            "name": "Vancouver",
+            "timezone": "America/Vancouver",
+            "observer": LocationInfo(
+                "Vancouver", "Canada", "America/Vancouver",
+                49.2827, -123.1207
+            ).observer
+        },
+        {
+            "slug": "victoria",
+            "name": "Victoria",
+            "timezone": "America/Vancouver",
+            "observer": LocationInfo(
+                "Victoria", "Canada", "America/Vancouver",
+                48.4284, -123.3656
+            ).observer
+        },
+        {
+            "slug": "calgary",
+            "name": "Calgary",
+            "timezone": "America/Edmonton",
+            "observer": LocationInfo(
+                "Calgary", "Canada", "America/Edmonton",
+                51.0447, -114.0719
+            ).observer
+        },
+        {
+            "slug": "banff",
+            "name": "Banff",
+            "timezone": "America/Edmonton",
+            "observer": LocationInfo(
+                "Banff", "Canada", "America/Edmonton",
+                51.1784, -115.5708
+            ).observer
+        },
+        {
+                "slug": "miami",
+                "name": "Miami",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Miami", "USA", "America/New_York",
+                    25.7617, -80.1918
+                ).observer
+            },
+            {
+                "slug": "orlando",
+                "name": "Orlando",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Orlando", "USA", "America/New_York",
+                    28.5383, -81.3792
+                ).observer
+            },
+            {
+                "slug": "atlanta",
+                "name": "Atlanta",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Atlanta", "USA", "America/New_York",
+                    33.7490, -84.3880
+                ).observer
+            },
+            {
+                "slug": "washington-dc",
+                "name": "Washington, D.C.",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Washington, D.C.", "USA", "America/New_York",
+                    38.9072, -77.0369
+                ).observer
+            },
+            {
+                "slug": "philadelphia",
+                "name": "Philadelphia",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Philadelphia", "USA", "America/New_York",
+                    39.9526, -75.1652
+                ).observer
+            },
+            {
+                "slug": "boston",
+                "name": "Boston",
+                "timezone": "America/New_York",
+                "observer": LocationInfo(
+                    "Boston", "USA", "America/New_York",
+                    42.3601, -71.0589
+                ).observer
+            }
 ]
 
 def format_time(dt, tz):
