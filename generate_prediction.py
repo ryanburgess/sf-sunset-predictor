@@ -23,91 +23,136 @@ cities = [
         "slug": "los-angeles",
         "name": "Los Angeles",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("Los Angeles", "USA", "America/Los_Angeles", 34.0522, -118.2437).observer
+        "observer": LocationInfo(
+            "Los Angeles", "USA", "America/Los_Angeles",
+            34.0522, -118.2437
+        ).observer
     },
     {
         "slug": "palm-springs",
         "name": "Palm Springs",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("Palm Springs", "USA", "America/Los_Angeles", 33.8303, -116.5453).observer
+        "observer": LocationInfo(
+            "Palm Springs", "USA", "America/Los_Angeles",
+            33.8303, -116.5453
+        ).observer
     },
     {
         "slug": "san-francisco",
         "name": "San Francisco",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("San Francisco", "USA", "America/Los_Angeles", 37.7749, -122.4194).observer
+        "observer": LocationInfo(
+            "San Francisco", "USA", "America/Los_Angeles",
+            37.7749, -122.4194
+        ).observer
     },
     {
         "slug": "san-diego",
         "name": "San Diego",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("San Diego", "USA", "America/Los_Angeles", 32.7157, -117.1611).observer
+        "observer": LocationInfo(
+            "San Diego", "USA", "America/Los_Angeles",
+            32.7157, -117.1611
+        ).observer
     },
     {
         "slug": "lake-tahoe",
         "name": "Lake Tahoe",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("Lake Tahoe", "USA", "America/Los_Angeles", 39.0968, -120.0324).observer
+        "observer": LocationInfo(
+            "Lake Tahoe", "USA", "America/Los_Angeles",
+            39.0968, -120.0324
+        ).observer
     },
     {
         "slug": "truckee",
         "name": "Truckee",
         "timezone": "America/Los_Angeles",
-        "observer": LocationInfo("Truckee", "USA", "America/Los_Angeles", 39.327962, -120.183253).observer
+        "observer": LocationInfo(
+            "Truckee", "USA", "America/Los_Angeles",
+            39.327962, -120.183253
+        ).observer
     },
     {
         "slug": "tokyo",
         "name": "Tokyo",
         "timezone": "Asia/Tokyo",
-        "observer": LocationInfo("Tokyo", "Japan", "Asia/Tokyo", 35.6895, 139.6917).observer
+        "observer": LocationInfo(
+            "Tokyo", "Japan", "Asia/Tokyo",
+            35.6895, 139.6917
+        ).observer
     },
     {
         "slug": "london",
         "name": "London",
         "timezone": "Europe/London",
-        "observer": LocationInfo("London", "United Kingdom", "Europe/London", 51.5074, -0.1278).observer
+        "observer": LocationInfo(
+            "London", "United Kingdom", "Europe/London",
+            51.5074, -0.1278
+        ).observer
     },
     {
         "slug": "paris",
         "name": "Paris",
         "timezone": "Europe/Paris",
-        "observer": LocationInfo("Paris", "France", "Europe/Paris", 48.8566, 2.3522).observer
+        "observer": LocationInfo(
+            "Paris", "France", "Europe/Paris",
+            48.8566, 2.3522
+        ).observer
     },
     {
         "slug": "lake-como",
         "name": "Lake Como",
         "timezone": "Europe/Rome",
-        "observer": LocationInfo("Lake Como", "Italy", "Europe/Rome", 45.9911, 9.2572).observer
+        "observer": LocationInfo(
+            "Lake Como", "Italy", "Europe/Rome",
+            45.9911, 9.2572
+        ).observer
     },
     {
         "slug": "milan",
         "name": "Milan",
         "timezone": "Europe/Rome",
-        "observer": LocationInfo("Milan", "Italy", "Europe/Rome", 45.4642, 9.1900).observer
+        "observer": LocationInfo(
+            "Milan", "Italy", "Europe/Rome",
+            45.4642, 9.1900
+        ).observer
     },
     {
         "slug": "rome",
         "name": "Rome",
         "timezone": "Europe/Rome",
-        "observer": LocationInfo("Rome", "Italy", "Europe/Rome", 41.9028, 12.4964).observer
+        "observer": LocationInfo(
+            "Rome", "Italy", "Europe/Rome",
+            41.9028, 12.4964
+        ).observer
     },
     {
         "slug": "new-york-city",
         "name": "New York City",
         "timezone": "America/New_York",
-        "observer": LocationInfo("New York City", "USA", "America/New_York", 40.7128, -74.0060).observer
+        "observer": LocationInfo(
+            "New York City", "USA", "America/New_York",
+            40.7128, -74.0060
+        ).observer
     },
     {
         "slug": "toronto",
         "name": "Toronto",
         "timezone": "America/Toronto",
-        "observer": LocationInfo("Toronto", "Canada", "America/Toronto", 43.6532, -79.3832).observer
+        "observer": LocationInfo(
+            "Toronto", "Canada", "America/Toronto",
+            43.6532, -79.3832
+        ).observer
     },
     {
         "slug": "chicago",
         "name": "Chicago",
         "timezone": "America/Chicago",
-        "observer": LocationInfo("Chicago", "USA", "America/Chicago", 41.8781, -87.6298).observer
+        "observer": LocationInfo(
+            "Chicago", "USA", "America/Chicago",
+            41.8781, -87.6298
+        ).observer
     },
     {
         "slug": "montreal",
@@ -119,95 +164,203 @@ cities = [
         ).observer
     },
     {
-            "slug": "vancouver",
-            "name": "Vancouver",
-            "timezone": "America/Vancouver",
-            "observer": LocationInfo(
-                "Vancouver", "Canada", "America/Vancouver",
-                49.2827, -123.1207
-            ).observer
-        },
-        {
-            "slug": "victoria",
-            "name": "Victoria",
-            "timezone": "America/Vancouver",
-            "observer": LocationInfo(
-                "Victoria", "Canada", "America/Vancouver",
-                48.4284, -123.3656
-            ).observer
-        },
-        {
-            "slug": "calgary",
-            "name": "Calgary",
-            "timezone": "America/Edmonton",
-            "observer": LocationInfo(
-                "Calgary", "Canada", "America/Edmonton",
-                51.0447, -114.0719
-            ).observer
-        },
-        {
-            "slug": "banff",
-            "name": "Banff",
-            "timezone": "America/Edmonton",
-            "observer": LocationInfo(
-                "Banff", "Canada", "America/Edmonton",
-                51.1784, -115.5708
-            ).observer
-        },
-        {
-                "slug": "miami",
-                "name": "Miami",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Miami", "USA", "America/New_York",
-                    25.7617, -80.1918
-                ).observer
-            },
-            {
-                "slug": "orlando",
-                "name": "Orlando",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Orlando", "USA", "America/New_York",
-                    28.5383, -81.3792
-                ).observer
-            },
-            {
-                "slug": "atlanta",
-                "name": "Atlanta",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Atlanta", "USA", "America/New_York",
-                    33.7490, -84.3880
-                ).observer
-            },
-            {
-                "slug": "washington-dc",
-                "name": "Washington, D.C.",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Washington, D.C.", "USA", "America/New_York",
-                    38.9072, -77.0369
-                ).observer
-            },
-            {
-                "slug": "philadelphia",
-                "name": "Philadelphia",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Philadelphia", "USA", "America/New_York",
-                    39.9526, -75.1652
-                ).observer
-            },
-            {
-                "slug": "boston",
-                "name": "Boston",
-                "timezone": "America/New_York",
-                "observer": LocationInfo(
-                    "Boston", "USA", "America/New_York",
-                    42.3601, -71.0589
-                ).observer
-            }
+        "slug": "vancouver",
+        "name": "Vancouver",
+        "timezone": "America/Vancouver",
+        "observer": LocationInfo(
+            "Vancouver", "Canada", "America/Vancouver",
+            49.2827, -123.1207
+        ).observer
+    },
+    {
+        "slug": "victoria",
+        "name": "Victoria",
+        "timezone": "America/Vancouver",
+        "observer": LocationInfo(
+            "Victoria", "Canada", "America/Vancouver",
+            48.4284, -123.3656
+        ).observer
+    },
+    {
+        "slug": "calgary",
+        "name": "Calgary",
+        "timezone": "America/Edmonton",
+        "observer": LocationInfo(
+            "Calgary", "Canada", "America/Edmonton",
+            51.0447, -114.0719
+        ).observer
+    },
+    {
+        "slug": "banff",
+        "name": "Banff",
+        "timezone": "America/Edmonton",
+        "observer": LocationInfo(
+            "Banff", "Canada", "America/Edmonton",
+            51.1784, -115.5708
+        ).observer
+    },
+    {
+        "slug": "miami",
+        "name": "Miami",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Miami", "USA", "America/New_York",
+            25.7617, -80.1918
+        ).observer
+    },
+    {
+        "slug": "orlando",
+        "name": "Orlando",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Orlando", "USA", "America/New_York",
+            28.5383, -81.3792
+        ).observer
+    },
+    {
+        "slug": "atlanta",
+        "name": "Atlanta",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Atlanta", "USA", "America/New_York",
+            33.7490, -84.3880
+        ).observer
+    },
+    {
+        "slug": "washington-dc",
+        "name": "Washington, D.C.",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Washington, D.C.", "USA", "America/New_York",
+            38.9072, -77.0369
+        ).observer
+    },
+    {
+        "slug": "philadelphia",
+        "name": "Philadelphia",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Philadelphia", "USA", "America/New_York",
+            39.9526, -75.1652
+        ).observer
+    },
+    {
+        "slug": "boston",
+        "name": "Boston",
+        "timezone": "America/New_York",
+        "observer": LocationInfo(
+            "Boston", "USA", "America/New_York",
+            42.3601, -71.0589
+        ).observer
+    },
+    {
+        "slug": "seattle",
+        "name": "Seattle",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo(
+            "Seattle", "USA", "America/Los_Angeles",
+            47.6062, -122.3321
+        ).observer
+    },
+    {
+        "slug": "portland",
+        "name": "Portland",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo(
+            "Portland", "USA", "America/Los_Angeles",
+            45.5152, -122.6784
+        ).observer
+    },
+    {
+        "slug": "las-vegas",
+        "name": "Las Vegas",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo(
+            "Las Vegas", "USA", "America/Los_Angeles",
+            36.1699, -115.1398
+        ).observer
+    },
+    {
+        "slug": "phoenix",
+        "name": "Phoenix",
+        "timezone": "America/Phoenix",
+        "observer": LocationInfo(
+            "Phoenix", "USA", "America/Phoenix",
+            33.4484, -112.0740
+        ).observer
+    },
+    {
+        "slug": "denver",
+        "name": "Denver",
+        "timezone": "America/Denver",
+        "observer": LocationInfo(
+            "Denver", "USA", "America/Denver",
+            39.7392, -104.9903
+        ).observer
+    },
+    {
+        "slug": "austin",
+        "name": "Austin",
+        "timezone": "America/Chicago",
+        "observer": LocationInfo(
+            "Austin", "USA", "America/Chicago",
+            30.2672, -97.7431
+        ).observer
+    },
+    {
+        "slug": "honolulu",
+        "name": "Honolulu",
+        "timezone": "Pacific/Honolulu",
+        "observer": LocationInfo(
+            "Honolulu", "USA", "Pacific/Honolulu",
+            21.3099, -157.8581
+        ).observer
+    },
+    {
+        "slug": "nashville",
+        "name": "Nashville",
+        "timezone": "America/Chicago",
+        "observer": LocationInfo(
+            "Nashville", "USA", "America/Chicago",
+            36.1627, -86.7816
+        ).observer
+    },
+    {
+        "slug": "new-orleans",
+        "name": "New Orleans",
+        "timezone": "America/Chicago",
+        "observer": LocationInfo(
+            "New Orleans", "USA", "America/Chicago",
+            29.9511, -90.0715
+        ).observer
+    },
+    {
+        "slug": "salt-lake-city",
+        "name": "Salt Lake City",
+        "timezone": "America/Denver",
+        "observer": LocationInfo(
+            "Salt Lake City", "USA", "America/Denver",
+            40.7608, -111.8910
+        ).observer
+    },
+    {
+        "slug": "yosemite",
+        "name": "Yosemite",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo(
+            "Yosemite", "USA", "America/Los_Angeles",
+            37.7459, -119.5332
+        ).observer
+    },
+    {
+        "slug": "joshua-tree",
+        "name": "Joshua Tree",
+        "timezone": "America/Los_Angeles",
+        "observer": LocationInfo(
+            "Joshua Tree", "USA", "America/Los_Angeles",
+            33.8734, -115.9010
+        ).observer
+    }
 ]
 
 def format_time(dt, tz):
